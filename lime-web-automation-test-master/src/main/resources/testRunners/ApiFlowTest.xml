@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="25" data-provider-thread-count="10">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomEmailableReport"/>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+
+        <listener class-name="com.mckinsey.lime.listeners.MyTransformer"/>
+        <listener class-name="com.mckinsey.lime.listeners.TestListener"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomInvokeMethod"/>
+    </listeners>
+
+    <test name="FindPlanOptionsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.FindPlanOptionsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="FindPlanResultsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.FindPlanResultsTestFactory"/>
+        </classes>
+    </test>
+
+
+</suite>

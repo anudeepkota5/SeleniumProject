@@ -1,0 +1,68 @@
+locators:
+- pageName: "ComparePlansPage"
+  locatorName: "CompareSection"
+  locatorType: "XPATH"
+  locatorValue: "//div[starts-with(@id, 'compare-plans-') and contains(@id, '-header-title')]/../.."
+
+- pageName: "ComparePlansPage"
+  locatorName: "CompareSectionHeader"
+  locatorType: "XPATH"
+  locatorValue: ".//div[starts-with(@id, 'compare-plans-') and contains(@id, '-header-title')]"
+
+- pageName: "ComparePlansPage"
+  locatorName: "CompareSectionTextLeft"
+  locatorType: "XPATH"
+  locatorValue: ".//div[starts-with(@id, 'compare-plans-') and contains(@id, '-text-left')]"
+
+- pageName: "ComparePlansPage"
+  locatorName: "CompareSectionTextRight"
+  locatorType: "XPATH"
+  locatorValue: ".//div[starts-with(@id, 'compare-plans-') and contains(@id, '-text-right')]"
+
+- pageName: "ComparePlansPage"
+  locatorName: "ComparePlanHeaderLeft"
+  locatorType: "ID"
+  locatorValue: "compare-plans-0-plan-title"
+
+- pageName: "ComparePlansPage"
+  locatorName: "ComparePlanHeaderRight"
+  locatorType: "ID"
+  locatorValue: "compare-plans-1-plan-title"
+
+- pageName: "OurPlansPage"
+  locatorName: "CompareBoxes"
+  locatorType: "XPATH"
+  locatorValue: "//div[starts-with(@id, 'compare-select-') and contains(@id, '-plan-container')]"
+
+- pageName: "ComparePlansPage"
+  locatorName: "CompareBoxTitle"
+  locatorType: "XPATH"
+  locatorValue: ".//div[starts-with(@id, 'compare-select-') and contains(@id, '-plan-title')]"
+
+- pageName: "ComparePlansPage"
+  locatorName: "CompareBoxSubTitle"
+  locatorType: "XPATH"
+  locatorValue: ".//div[starts-with(@id, 'compare-select-') and contains(@id, '-plan-subtitle')]"
+
+
+- pageName: "OurPlansPage"
+  locatorName: "ComparePlansLink"
+  locatorType: "ID"
+  locatorValue: "overview-compare-plans"
+
+#FIX: Changed to "starts-with" for getting element with Plan name as Non-Renuewable plan containg trailing space in the UI
+#TODO: Need to refactor above
+- pageName: "OurPlansPage"
+  locatorName: "CompareBoxByNameAndTitle"
+  locatorType: "XPATH"
+  locatorValue: "//div[starts-with(@id, 'compare-select-') and contains(@id, '-plan-container') and .//div[starts-with(@id, 'compare-select-') and contains(@id, '-plan-title') and starts-with(text(), '${name}')] and .//div[starts-with(@id, 'compare-select-') and contains(@id, '-plan-subtitle') and .='${subTitle}']]"
+
+- pageName: "OurPlansPage"
+  locatorName: "SelectThisButton"
+  locatorType: "XPATH"
+  locatorValue: ".//button[text()='Select This']"
+
+- pageName: "OurPlansPage"
+  locatorName: "CompareNowButton"
+  locatorType: "ID"
+  locatorValue: "compareselect-button"

@@ -1,0 +1,15 @@
+locators:
+- pageName: "ProductTogglerSummaryPage"
+  locatorName: "PageHeader"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()=\"Here's your plan!\"]"
+
+- pageName: "ProductTogglerSummaryPage"
+  locatorName: "ApplyForThisPlan"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='APPLY FOR THIS PLAN']"
+
+- pageName: "ProductTogglerSummaryPage"
+  locatorName: "EmailMeThisPlan"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='EMAIL ME THIS PLAN']"

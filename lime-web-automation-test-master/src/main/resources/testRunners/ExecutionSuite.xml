@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="5">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomEmailableReport"/>
+        <listener class-name="com.mckinsey.lime.listeners.TestListener"/>
+        <listener class-name="com.mckinsey.lime.listeners.MyTransformer"/>
+    </listeners>
+
+    <test name="Login into iTrue Service Test">
+        <classes>
+            <class name="com.mckinsey.lime.tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <!--    <test name="BillAndPayTest">
+            <classes>
+                <class name="com.mckinsey.lime.tests.BillAndPayTest"/>
+            </classes>
+        </test>-->
+
+    <test name="PersonalInfo">
+        <classes>
+            <class name="com.mckinsey.lime.tests.PersonalInfo"/>
+        </classes>
+    </test>
+
+    <test name="Redeem7ElevenTest">
+        <classes>
+            <class name="com.mckinsey.lime.tests.Redeem7ElevenTest"/>
+        </classes>
+    </test>
+
+    <test name="TopUpNowTest">
+        <classes>
+            <class name="com.mckinsey.lime.tests.TopUpNowTest"/>
+        </classes>
+    </test>
+
+    <test name="PayNowTest">
+        <classes>
+            <class name="com.mckinsey.lime.tests.PayNowTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomEmailableReport"/>
+        <listener class-name="com.mckinsey.lime.listeners.MyTransformer"/>
+    </listeners>
+    <test name="Sample TC to click BillDetails tab">
+        <classes>
+            <class name="com.mckinsey.lime.tests.BillAndPayTest"/>
+            <methods>
+                <include name="clickBillAndPay"/>
+            </methods>
+        </classes>
+    </test>
+
+</suite>

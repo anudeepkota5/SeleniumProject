@@ -1,0 +1,20 @@
+locators:
+- pageName: "CommonPage"
+  locatorName: "HomeNavigationIcon"
+  locatorType: "XPATH"
+  locatorValue: "//img[@alt='Home']/.."
+
+- pageName: "CommonPage"
+  locatorName: "BackNavigationIcon"
+  locatorType: "XPATH"
+  locatorValue: "//img[@alt='Back']/.."
+
+- pageName: "CommonPage"
+  locatorName: "GlobalLoader"
+  locatorType: "ID"
+  locatorValue: "global-loader"
+
+- pageName: "GetAQuotePage"
+  locatorName: "NextButton"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='NEXT']"

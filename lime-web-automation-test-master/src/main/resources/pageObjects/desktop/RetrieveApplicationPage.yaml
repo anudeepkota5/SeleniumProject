@@ -1,0 +1,11 @@
+locators:
+- pageName: "RetrieveApplicationPage"
+  locatorName: "pageHeading"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Welcome back!']"
+
+- pageName: "RetrieveApplicationPage"
+  locatorName: "ResumeNowButton"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Resume now']"
+

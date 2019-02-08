@@ -1,0 +1,22 @@
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/
+
+.classpath
+.factorypath
+
+test-output/
+src/test/java/com/mckinsey/lime/poc/

@@ -1,0 +1,23 @@
+[
+  {
+    "deviceName": "Nexus_5X_API_27_2",
+    "platformVersion": "8.1.0",
+    "chromeDriverPort": "8002",
+    "systemPort": "8202",
+    "udid": "emulator-5554"
+  },
+  {
+    "deviceName": "Nexus_5X_API_27",
+    "platformVersion": "8.1.0",
+    "chromeDriverPort": "8001",
+    "systemPort": "8201",
+    "udid": "emulator-5556"
+  },
+  {
+    "deviceName": "Nexus_5X_API_27_3",
+    "platformVersion": "8.1.0",
+    "chromeDriverPort": "8003",
+    "systemPort": "8203",
+    "udid": "emulator-5558"
+  }
+]

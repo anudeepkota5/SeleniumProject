@@ -1,0 +1,55 @@
+locators:
+- pageName: "LandingPage"
+  locatorName: "IncomeLogo"
+  locatorType: "XPATH"
+  locatorValue: "//a[img[@alt='Income']]"
+
+- pageName: "LandingPage"
+  locatorName: "PageHeading"
+  locatorType: "XPATH"
+  locatorValue: "(//header)[2]/div[1]"
+
+- pageName: "LandingPage"
+  locatorName: "PageHeadingDescription"
+  locatorType: "XPATH"
+  locatorValue: "(//header)[2]/div[2]"
+
+- pageName: "LandingPage"
+  locatorName: "FindMeAPlanBox"
+  locatorType: "ID"
+  locatorValue: "findMeAPlan"
+
+- pageName: "LandingPage"
+  locatorName: "Mobile_FindMeAPlanBox"
+  locatorType: "XPATH"
+  locatorValue: "//div[@id='findMeAPlan']/div/img"
+
+- pageName: "LandingPage"
+  locatorName: "TotalControlMessage"
+  locatorType: "XPATH"
+  locatorValue: ""
+
+- pageName: "LandingPage"
+  locatorName: "EasyToUseMessage"
+  locatorType: "XPATH"
+  locatorValue: ""
+
+- pageName: "LandingPage"
+  locatorName: "ProtectionMaster"
+  locatorType: "ID"
+  locatorValue: "Protection"
+
+- pageName: "LandingPage"
+  locatorName: "SavingsMaster"
+  locatorType: "ID"
+  locatorValue: "Savings"
+
+- pageName: "LandingPage"
+  locatorName: "RetrieveApplicationMaster"
+  locatorType: "XPATH"
+  locatorValue: "(//div[@id='findMeAPlan'])[2]"
+
+- pageName: "LandingPage"
+  locatorName: "HelpIcon"
+  locatorType: "ID"
+  locatorValue: "help-button"

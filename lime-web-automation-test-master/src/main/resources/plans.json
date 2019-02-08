@@ -1,0 +1,189 @@
+{
+  "plans": [
+    {
+      "planType": "PROTECTION",
+      "title": "VivoLife 350",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "20000",
+      "maxSumAssured": "2000000",
+      "editableFields": {
+        "PREMIUM": [],
+        "SUM_ASSURED": [],
+        "PREMIUM_TERM": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "PROTECTION",
+      "title": "Protection",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "20000",
+      "maxSumAssured": "2000000",
+      "editableFields": {
+        "PREMIUM": [],
+        "SUM_ASSURED": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "PROTECTION",
+      "title": "DIRECT - Whole Life",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "50000",
+      "maxSumAssured": "200000",
+      "editableFields": {
+        "PREMIUM": [],
+        "SUM_ASSURED": [],
+        "PREMIUM_TERM": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "PROTECTION",
+      "title": "iTerm",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "10000",
+      "maxSumAssured": "499999",
+      "editableFields": {
+        "SUM_ASSURED": [],
+        "PREMIUM_TERM": [
+          "UP_TO_AGE_54",
+          "UP_TO_AGE_64",
+          "UP_TO_AGE_74",
+          "YEARS_5",
+          "YEARS_10",
+          "YEARS_15",
+          "YEARS_20",
+          "YEARS_25",
+          "YEARS_30",
+          "YEARS_35"
+        ],
+        "PREMIUM_FREQUENCY": []
+      },
+      "editableScenarios": []
+    },
+    {
+      "planType": "PROTECTION",
+      "title": "DIRECT - Term",
+      "subTitle": "(renewable)",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "50000",
+      "maxSumAssured": "400000",
+      "editableFields": {
+        "SUM_ASSURED": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "PROTECTION",
+      "title": "DIRECT - Term",
+      "subTitle": "(non-renewable)",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "50000",
+      "maxSumAssured": "400000",
+      "editableFields": {
+        "SUM_ASSURED": [],
+        "PREMIUM_TERM": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "SAVINGS",
+      "title": "RevoEase",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "25000",
+      "maxSumAssured": "",
+      "editableFields": {
+        "PREMIUM": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "SAVINGS",
+      "title": "RevoSecure",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "20000",
+      "maxSumAssured": "",
+      "editableFields": {
+        "PREMIUM": [],
+        "PREMIUM_TERM": [],
+        "PREMIUM_FREQUENCY": [],
+        "POLICY_TERM": []
+      }
+    },
+    {
+      "planType": "SAVINGS",
+      "title": "RevoSave",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "15000",
+      "maxSumAssured": "",
+      "editableFields": {
+        "PREMIUM": [],
+        "SUM_ASSURED": [],
+        "PREMIUM_TERM": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "SAVINGS",
+      "title": "RevoRetire",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "",
+      "maxSumAssured": "",
+      "editableFields": {
+        "PREMIUM": [],
+        "PREMIUM_TERM": [],
+        "MONTHLY_CASH_BENEFIT": [],
+        "PAYOUT_PERIOD": [],
+        "START_AGE_CASH_BENEFIT": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "SAVINGS",
+      "title": "Endowment",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "15000",
+      "maxSumAssured": "",
+      "editableFields": {
+        "PREMIUM": [],
+        "SUM_ASSURED": [],
+        "PREMIUM_TERM": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    },
+    {
+      "planType": "SAVINGS",
+      "title": "VivoCash Prime",
+      "subTitle": "",
+      "minPremium": "",
+      "maxPremium": "",
+      "minSumAssured": "25000",
+      "maxSumAssured": "",
+      "editableFields": {
+        "PREMIUM_TERM": [],
+        "PREMIUM_FREQUENCY": []
+      }
+    }
+  ]
+}

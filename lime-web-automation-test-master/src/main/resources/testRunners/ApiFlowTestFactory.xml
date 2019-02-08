@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" parallel="tests" thread-count="25" data-provider-thread-count="10">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomEmailableReport"/>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+
+        <listener class-name="com.mckinsey.lime.listeners.MyTransformer"/>
+        <listener class-name="com.mckinsey.lime.listeners.TestListener"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomInvokeMethod"/>
+    </listeners>
+
+    <test name="AllocationStatusTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.AllocationStatusTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="BillDetailsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.BillDetailsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="BillingHistoryTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.BillingHistoryTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="CardsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.CardsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="ConverseMainTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.ConverseMainTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="CouponsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.CouponsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="PaymentHistoryTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.PaymentHistoryTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="PreferencesTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.PreferencesTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="PricePlanTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.PricePlanTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="ProductDetailsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.ProductDetailsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="ProductsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.ProductsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="RequestTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.RequestTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="ServiceNumberTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.ServiceNumberTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="ToppingsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.ToppingsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="TopUpValidityTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.TopUpValidityTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="TranslationsTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.TranslationsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="TypeTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.TypeTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="AnonymousPaymentTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.AnonymousPaymentTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="TokensTestFactory" parallel="instances" thread-count="3">
+        <classes>
+            <class name="com.mckinsey.lime.apiTestFactories.TokensTestFactory"/>
+        </classes>
+    </test>
+
+
+</suite>

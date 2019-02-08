@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" verbose="10" data-provider-thread-count="10">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomEmailableReport"/>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+
+        <listener class-name="com.mckinsey.lime.listeners.MyTransformer"/>
+        <listener class-name="com.mckinsey.lime.listeners.TestListener"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomInvokeMethod"/>
+    </listeners>
+
+    <test name="Landing Page Test" parallel="instances" thread-count="1">
+        <classes>
+            <class name="com.mckinsey.lime.desktopWebTestFactories.LandingTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="Our Plans Page Test" parallel="instances" thread-count="1">
+        <classes>
+            <class name="com.mckinsey.lime.desktopWebTestFactories.OurPlansTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="Compare Plans Page Test" parallel="instances" thread-count="1">
+        <classes>
+            <class name="com.mckinsey.lime.desktopWebTestFactories.ComparePlansTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="Plan Details Test" parallel="instances" thread-count="1">
+        <classes>
+            <class name="com.mckinsey.lime.desktopWebTestFactories.PlanDetailsTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="Smart Finder Test" parallel="instances" thread-count="1">
+        <classes>
+            <class name="com.mckinsey.lime.desktopWebTestFactories.SmartFinderTestFactory"/>
+        </classes>
+    </test>
+
+    <test name="Get A Quote Page Test - Validation with empty Fields" parallel="instances" thread-count="1">
+        <classes>
+            <class name="com.mckinsey.lime.desktopWebTestFactories.ProductToggler_EmptyValidationsTestFactory"/>
+        </classes>
+    </test>
+<!--
+    <test name="Get A Quote Page Test" parallel="instances" thread-count="7">
+        <classes>
+            <class name="com.mckinsey.lime.desktopWebTestFactories.ProductTogglerTestFactory"/>
+        </classes>
+    </test>-->
+
+</suite>

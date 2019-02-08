@@ -1,0 +1,66 @@
+locators:
+- pageName: "GetAQuotePage"
+  locatorName: "PageHeader"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Get a quote now.']"
+
+- pageName: "GetAQuotePage"
+  locatorName: "PlanName"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Your chosen plan:']/following-sibling::div[1]"
+
+- pageName: "GetAQuotePage"
+  locatorName: "ViewDetailsButton"
+  locatorType: "XPATH"
+  locatorValue: "//button[text()='View Details']"
+
+- pageName: "GetAQuotePage"
+  locatorName: "DOB_Day"
+  locatorType: "ID"
+  locatorValue: "preToggler-DOB-day"
+
+- pageName: "GetAQuotePage"
+  locatorName: "DOB_Month"
+  locatorType: "ID"
+  locatorValue: "preToggler-DOB-month"
+
+- pageName: "GetAQuotePage"
+  locatorName: "DOB_Year"
+  locatorType: "ID"
+  locatorValue: "preToggler-DOB-year"
+
+- pageName: "GetAQuotePage"
+  locatorName: "Gender_Male"
+  locatorType: "ID"
+  locatorValue: "preToggler-gender-M"
+
+- pageName: "GetAQuotePage"
+  locatorName: "Gender_Female"
+  locatorType: "ID"
+  locatorValue: "preToggler-gender-F"
+
+- pageName: "GetAQuotePage"
+  locatorName: "Smoke_Yes"
+  locatorType: "XPATH"
+  locatorValue: "//input[@id='preToggler-smoking-name' and @value='Y']/.."
+
+- pageName: "GetAQuotePage"
+  locatorName: "Smoke_No"
+  locatorType: "XPATH"
+  locatorValue: "//input[@id='preToggler-smoking-name' and @value='N']/.."
+
+- pageName: "GetAQuotePage"
+  locatorName: "DOB_ErrorMessage"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Date of Birth']/following-sibling::div[2]"
+
+- pageName: "GetAQuotePage"
+  locatorName: "Gender_ErrorMessage"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Gender']/following-sibling::div[2]"
+
+- pageName: "GetAQuotePage"
+  locatorName: "Smoke_ErrorMessage"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Do you smoke?']/following-sibling::div[2]"
+

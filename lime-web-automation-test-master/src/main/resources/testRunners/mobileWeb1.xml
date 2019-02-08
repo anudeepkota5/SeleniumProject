@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" verbose="10" parallel="tests" thread-count="10">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomEmailableReport"/>
+        <listener class-name="com.mckinsey.lime.listeners.MyTransformer"/>
+        <listener class-name="com.mckinsey.lime.listeners.TestListener"/>
+        <listener class-name="org.testng.reporters.EmailableReporter"/>
+        <listener class-name="com.mckinsey.lime.listeners.CustomInvokeMethod"/>
+    </listeners>
+
+    <!--<test name="PreLogin: Pay For Others Test">
+
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.PreLogin_PayForOthersTest"/>
+        </classes>
+
+    </test>
+
+    <test name="PreLogin: PayNow Test">
+
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.PreLogin_PayNowTest"/>
+
+        </classes>
+
+    </test>
+
+    <test name="PreLogin: TopUp For Others Test">
+
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.PreLogin_TopUpForOthersTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Login Test">
+
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.LoginTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Pay For Others Test">
+
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.PayForOthersTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Payment History Test">
+
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.PaymentHistoryTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Bills And Usage Test">
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.BillsAndUsageTest"/>
+        </classes>
+    </test>
+
+    <test name="Change Price Plan Test">
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.ChangePricePlanTest"/>
+        </classes>
+    </test>-->
+
+    <test name="True Care Test">
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.TrueCareTest"/>
+        </classes>
+    </test>
+
+    <!--<test name="Billing History Test">
+
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.BillingHistoryTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Buy Extra Package Test">
+        <classes>
+            <class name="com.mckinsey.lime.mobileWebTests.BuyExtraPackageTest"/>
+        </classes>
+    </test>-->
+
+</suite>

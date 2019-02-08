@@ -1,0 +1,65 @@
+locators:
+- pageName: "WantARiderPage"
+  locatorName: "PageHeader"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Do you want a rider?']"
+
+- pageName: "WantARiderPage"
+  locatorName: "EarlyCancerWaiver"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Early cancer waiver' or text()='Early Cancer Waiver']"
+
+- pageName: "WantARiderPage"
+  locatorName: "CancerPremiumWaiver"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Cancer premium waiver (GIO)' or text()='Cancer Premium Waiver (GIO)']"
+
+- pageName: "WantARiderPage"
+  locatorName: "EarlyProtectAccelerator"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Early Protect Accelerator']"
+
+- pageName: "WantARiderPage"
+  locatorName: "NoThanks"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='No thanks']"
+
+- pageName: "WantARiderPage"
+  locatorName: "DDPremiumWaiver"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='DD premium waiver' or text()='Dread Disease Premium Waiver']"
+
+- pageName: "WantARiderPage"
+  locatorName: "DirectDDForWholeLife"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='DIRECT - DD Rider for Whole Life']"
+
+- pageName: "WantARiderPage"
+  locatorName: "DirectDDForTerm"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Direct - DD rider for Term']"
+
+- pageName: "WantARiderPage"
+  locatorName: "WantToChangeAmount"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I want to change the amount']"
+
+- pageName: "WantARiderPage"
+  locatorName: "updateButton"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='UPDATE']"
+
+- pageName: "WantARiderPage"
+  locatorName: "editAmountIcon"
+  locatorType: "XPATH"
+  locatorValue: "//img[@alt='edit']"
+
+- pageName: "WantARiderPage"
+  locatorName: "amountTextField"
+  locatorType: "XPATH"
+  locatorValue: "//section[@id='undefined-modal-body']//input"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ErrorMsg_EditedField"
+  locatorType: "XPATH"
+  locatorValue: "//section[@id='undefined-modal-body']/div[3]/div[2]"

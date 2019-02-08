@@ -1,0 +1,132 @@
+successCard:
+  type: visa
+  number: 4242424242424242
+  name: Success
+  expiry: 0121
+  securityCode: 111
+
+creditCard2:
+  type: visa
+  number: 4111111111111111
+  name: Success
+  expiry: 0121
+  securityCode: 111
+
+creditCard3:
+  type: Master
+  number: 5555555555554444
+  name: Success
+  expiry: 0121
+  securityCode: 111
+
+creditCard4:
+  type: Master
+  number: 5454545454545454
+  name: Success
+  expiry: 0121
+  securityCode: 111
+
+creditCard5:
+  type: JCB
+  number: 3530111333300000
+  name: Success
+  expiry: 0121
+  securityCode: 111
+
+creditCard6:
+  type: JCB
+  number: 3566111111111113
+  name: Success
+  expiry: 0121
+  securityCode: 111
+
+creditCard7:
+  type: visa
+  number: 4111 1111 1116 0001
+  name: Invalid pin
+  expiry: 0121
+  securityCode: 111
+
+creditCard8:
+  type: master
+  number: 5555 5511 1113 0001
+  name: Invalid pin
+  expiry: 0121
+  securityCode: 111
+
+creditCard9:
+  type: JCB
+  number: 3530 1111 1111 0001
+  name: Invalid pin
+  expiry: 0121
+  securityCode: 111
+
+creditCard10:
+  type: visa
+  number: 4111 1111 1114 0011
+  name: Insufficient Fund
+  expiry: 0121
+  securityCode: 111
+
+creditCard11:
+  type: master
+  number: 5555 5511 1111 0011
+  name: Insufficient Fund
+  expiry: 0121
+  securityCode: 111
+
+creditCard12:
+  type: JCB
+  number: 3530 1111 1119 0011
+  name: Insufficient Fund
+  expiry: 0121
+  securityCode: 111
+
+creditCard13:
+  type: visa
+  number: 4111 1111 1113 0012
+  name: Stolen or Lost Card
+  expiry: 0121
+  securityCode: 111
+
+creditCard14:
+  type: master
+  number: 5555 5511 1110 0012
+  name: Stolen or Lost Card
+  expiry: 0121
+  securityCode: 111
+
+creditCard15:
+  type: JCB
+  number: 3530 1111 1118 0012
+  name: Stolen or Lost Card
+  expiry: 0121
+  securityCode: 111
+
+creditCard16:
+  type:
+  number:
+  name:
+  expiry: 0121
+  securityCode: 111
+
+creditCard17:
+  type:
+  number:
+  name:
+  expiry: 0121
+  securityCode: 111
+
+creditCard18:
+  type:
+  number:
+  name:
+  expiry: 0121
+  securityCode: 111
+
+creditCard19:
+  type:
+  number:
+  name:
+  expiry: 0121
+  securityCode: 111

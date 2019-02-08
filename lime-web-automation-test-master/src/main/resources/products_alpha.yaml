@@ -1,0 +1,17 @@
+#product1:
+#    customerId: "4630109"
+#    productId: "0802931214"
+#    productType: "TrueMoveH"
+#    subscriberId: "6931327"
+#    subscriptionType: "POSTPAID"
+#    thaiID: "3100602035302"
+#    description:
+
+product1:
+  customerId: "4630109"
+  productId: "0802931214"
+  productType: "TrueMoveH"
+  subscriberId: "6931327"
+  subscriptionType: "POSTPAID"
+  thaiID: "3100602035302"
+  description:

@@ -1,0 +1,13 @@
+{
+  "apiKey":"${apiKey}",
+  "dob":"${day}.${month}.${year}",
+  "smokingStatus":"${smoke}",
+  "gender":"${gender}",
+  "entryAge":${ageInYears},
+  "premiumTerm":"${premiumTerm}",
+  "premiumTermtype":"${premiumTermType}",
+  "premiumMode":"4",
+  "policyTerm":"${policyTerm}",
+  "sumAssured":"${SumAssured}",
+  "policyTermtype":"${PolicyTermType}"
+}

@@ -1,0 +1,340 @@
+locators:
+- pageName: "PossibleFiguresPage"
+  locatorName: "ChosenPlan"
+  locatorType: "ID"
+  locatorValue: "product-toggler-chosen-plan-name"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "PremiumAmount"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much do I pay?']/../following-sibling::div/div/div"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "PremiumFrequency_Monthly"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How often do I pay?']/../following-sibling::div/div[1]"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "PremiumFrequency_Yearly"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How often do I pay?']/../following-sibling::div/div[2]"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "SumAssured"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much am I covered for?']/../following-sibling::div/div/div[1]"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditSumAssuredIcon"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much am I covered for?']/../following-sibling::div//img"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "SumAssuredTextField"
+  locatorType: "XPATH"
+  locatorValue: "//input[@placeholder='Enter value']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "PremiumAmountTextField"
+  locatorType: "XPATH"
+  locatorValue: "//input[@placeholder='Enter value']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "PremiumTerm"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How long is my policy for?']/../following-sibling::div/div/div[1]"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "RevertToOriginalValuesLink"
+  locatorType: "XPATH"
+  locatorValue: "//span[text()='Revert to the original values']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumAmountIcon"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much do I pay?']/../following-sibling::div/img"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTermIcon"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How long do I pay for?']/../following-sibling::div/img"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTermIcon"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How long is my policy for?']/../following-sibling::div/img"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_YearsDropdown"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']//following-sibling::div//input/.."
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_5Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='5']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_10Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='10']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_15Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='15']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_20Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='20']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_25Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='25']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_30Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='30']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_35Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='35']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_3Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='3']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_24Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='24']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_29Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='29']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_12Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='12']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_AgeDropdown"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Up To Age' or text()='Up to the age of']//following-sibling::div//input/.."
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_UpToAge54"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Up To Age' or text()='Up to the age of']/following-sibling::div//div[text()='Up to age 54']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_UpToAge61"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Up To Age' or text()='Up to the age of']/following-sibling::div//div[text()='Up to age 61']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_UpToAge64"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Up To Age' or text()='Up to the age of']/following-sibling::div//div[text()='Up to age 64']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_UpToAge69"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Up To Age' or text()='Up to the age of']/following-sibling::div//div[text()='Up to age 69']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_UpToAge74"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Up To Age' or text()='Up to the age of']/following-sibling::div//div[text()='Up to age 74']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPremiumTerm_UpToAge84"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Up To Age' or text()='Up to the age of']/following-sibling::div//div[text()='Up to age 84']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "UpdatePremiumTermButton"
+  locatorType: "XPATH"
+  locatorValue: "//button[text()='UPDATE']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ClosePopup"
+  locatorType: "XPATH"
+  locatorValue: "(//*[@class='icon-close-popup'])[2]"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_13Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='13']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_19Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='19']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_20Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='20']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_21Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='21']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_22Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='22']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_23Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='23']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_24Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='24']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPolicyTerm_25Years"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Number of years' or text()='Year']/following-sibling::div//div[text()='25']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ViewMoreDetailsLink"
+  locatorType: "XPATH"
+  locatorValue: "//div[span='View more details']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "Mobile_GotIt"
+  locatorType: "ID"
+  locatorValue: "product-toggler-walkThroughModal-toolTip"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ErrorMsg_EditedField"
+  locatorType: "ID"
+  locatorValue: "editable-popup-text-input-error"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ViewMoreDetails_ScenarioA"
+  locatorType: "ID"
+  locatorValue: "product-toggler-details-guarenteed-amount-1"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ViewMoreDetails_ScenarioB"
+  locatorType: "ID"
+  locatorValue: "product-toggler-details-guarenteed-amount2"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ViewMoreDetails_GuaranteedMaturityText"
+  locatorType: "ID"
+  locatorValue: "product-toggler-details-guarenteed-monthly-text"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ViewMoreDetails_YieldA"
+  locatorType: "ID"
+  locatorValue: "product-toggler-details-yield-maturity"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ViewMoreDetails_YieldB"
+  locatorType: "ID"
+  locatorValue: "product-toggler-details-yield-maturity-1"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "ViewMoreDetails_YearlyCashBenefit"
+  locatorType: "ID"
+  locatorValue: "product-toggler-details-yield-maturity-3"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "CloseIcon_ViewMoreDetails"
+  locatorType: "ID"
+  locatorValue: "product-toggler-details-toggler-close-button"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "StartAgeForCashBenefit"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='At what age do I start receiving cash benefits?']/../following-sibling::div/div"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "PayoutPeriod"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How long do I receive my cash benefits?']/../following-sibling::div/div"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "GuaranteedMonthlyCashBenefit"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much do I receive?']/../following-sibling::div/div"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPayoutPeriod_Dropdown"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years']//following-sibling::div//input/.."
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPayoutPeriod_Years10"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years']/following-sibling::div//div[text()='10']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPayoutPeriod_Years20"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years']/following-sibling::div//div[text()='20']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPayoutPeriod_Years30"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years']/following-sibling::div//div[text()='30']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditStartAgeForCashBenefit_Dropdown"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years old']//following-sibling::div//input/.."
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditStartAgeForCashBenefit_50"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years old']/following-sibling::div//div[text()='50']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditStartAgeForCashBenefit_55"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years old']/following-sibling::div//div[text()='55']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditStartAgeForCashBenefit_60"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years old']/following-sibling::div//div[text()='60']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditStartAgeForCashBenefit_65"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Years old']/following-sibling::div//div[text()='65']"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditMonthlyCashBenefitIcon"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much do I receive?']/../following-sibling::div/img"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditStartAgeForCashBenefitIcon"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='At what age do I start receiving cash benefits?']/../following-sibling::div/img"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "EditPayoutPeriodIcon"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How long do I receive my cash benefits?']/../following-sibling::div/img"
+
+- pageName: "PossibleFiguresPage"
+  locatorName: "MonthlyCashBenefitTextField"
+  locatorType: "XPATH"
+  locatorValue: "//input[@id='editable-popup-text-input']"

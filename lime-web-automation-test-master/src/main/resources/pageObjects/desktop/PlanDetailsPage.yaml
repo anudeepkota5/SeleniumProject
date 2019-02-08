@@ -1,0 +1,15 @@
+locators:
+- pageName: "PlanDetailsPage"
+  locatorName: "GetAQuote"
+  locatorType: "ID"
+  locatorValue: "form-button"
+
+- pageName: "PlanDetailsPage"
+  locatorName: "PlanTitle"
+  locatorType: "XPATH"
+  locatorValue: "//div[@class='_2poAJjhExXuOTKjrqnG-tU']"
+
+- pageName: "PlanDetailsPage"
+  locatorName: "PlanSubTitle"
+  locatorType: "XPATH"
+  locatorValue: "//div[@class='_1cDiHWkNmsiog-Vp9lwlex']"

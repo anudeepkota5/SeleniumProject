@@ -1,0 +1,23 @@
+{
+  "payables": [
+    {
+      "companyCode": "${companyCode}",
+      "merchantName": "${merchantName}",
+      "productType": "${productType}",
+      "subscriptionType": "${subscriptionType}",
+      "accountId": "${accountId}",
+      "amount": $
+    {
+      amount
+    },
+    "isBillConsolidated"
+    :
+    $
+    {
+      isBillConsolidated
+    }
+  }
+  ],
+  "token": "${tokenID}",
+  "fingerprint": "${fingerprint}"
+}

@@ -1,0 +1,23 @@
+{
+  "sit": {
+    "name": "DEV",
+    "authorization": "Bearer 5ab066f1a0e6210e3668582c5532d128250547b4a9f026abe25264be",
+    "baseURL": "https://apili.sit.income.com.sg",
+    "webAppUrl": "https://lifeinsurance.sit.income.com.sg",
+    "authority": "apili.sit.income.com.sg"
+  },
+  "uat": {
+    "name": "ALPHA",
+    "authorization": "Bearer 5ab067372bb5f26800b22b8dc51be2e375e7414c842868a816354deb",
+    "baseURL": "https://apili.uat.income.com.sg",
+    "webAppUrl": "http://10.31.194.217:3000",
+    "authority": "apili.uat.income.com.sg"
+  },
+  "prod": {
+    "name": "PROD",
+    "authorization": "Bearer ",
+    "baseURL": "",
+    "webAppUrl": "",
+    "authority": ""
+  }
+}

@@ -1,0 +1,27 @@
+browser: mobile
+implicitTimeOut: 1
+explicitTimeOut: 20
+explicitTimeOutType2: 3
+appType: DESKTOP
+#appType: MOBILE
+testEnvironment: LOCAL
+#testEnvironment: SAUCE
+appEnvironment: SIT
+#appEnvironment: UAT
+#appEnvironment: PROD
+#deviceType: IOS
+deviceType: ANDROID
+browserType: CHROME
+#browserType: FIREFOX
+#sauceLabURL: http://sharma2908abhishek:dcd3f9e8-8130-4e8c-8dbe-898cb85aa4a8@ondemand.saucelabs.com/wd/hub
+sauceLabURL: http://localhost:4444/wd/hub
+testObjectURL: https://us1.appium.testobject.com/wd/hub
+authorization: Bearer 59a3b924233eaa10411635f4d182a204bce64f615edc68ecb304bb82l
+devAuthorization: Bearer 5ab066f1a0e6210e3668582c5532d128250547b4a9f026abe25264be
+
+#######################################################################################################################
+#                       API FLOW TEST
+#######################################################################################################################
+api_channel: APP
+api_platform: ios
+slackReport: false

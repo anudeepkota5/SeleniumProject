@@ -1,0 +1,30 @@
+locators:
+- pageName: "SelectedRiderPage"
+  locatorName: "PageHeader"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Your selected rider: ']"
+
+- pageName: "SelectedRiderPage"
+  locatorName: "YesPleaseProceed"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Yes, please proceed.']"
+
+- pageName: "SelectedRiderPage"
+  locatorName: "NoThanks"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='No thanks']"
+
+- pageName: "SelectedRiderPage"
+  locatorName: "SelectedRiderPremiumMessage"
+  locatorType: "XPATH"
+  locatorValue: "//div[@class='_3nRp87YKsN7R6AOD4FYC-P']/.."
+
+- pageName: "SelectedRiderPage"
+  locatorName: "SumAssuredAmount"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much am I covered for (I.e. sum assured)?']/following-sibling::div[1]"
+
+- pageName: "SelectedRiderPage"
+  locatorName: "PremiumAmount"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='How much do I pay?']/following-sibling::div[1]"

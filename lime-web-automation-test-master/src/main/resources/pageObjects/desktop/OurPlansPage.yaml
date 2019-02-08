@@ -1,0 +1,85 @@
+locators:
+- pageName: "OurPlansPage"
+  locatorName: "PageHeading"
+  locatorType: "ID"
+  locatorValue: "overview-body-title"
+
+- pageName: "OurPlansPage"
+  locatorName: "PageHeadingDescription"
+  locatorType: "ID"
+  locatorValue: "overview-body-description"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProtectionTab"
+  locatorType: "ID"
+  locatorValue: "overviewPlan-tabs-Protection"
+
+- pageName: "OurPlansPage"
+  locatorName: "SavingsTab"
+  locatorType: "ID"
+  locatorValue: "overviewPlan-tabs-Savings"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProductBox"
+  locatorType: "ID"
+  locatorValue: "overviewPlans-plan-container"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProductHeader"
+  locatorType: "ID"
+  locatorValue: "overviewPlans-plan-header"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProductTitle"
+  locatorType: "ID"
+  locatorValue: "overviewPlans-plan-title"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProductSubTitle"
+  locatorType: "ID"
+  locatorValue: "overviewPlans-plan-subtitle"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProductDescription"
+  locatorType: "ID"
+  locatorValue: "overviewPlans-plan-description"
+
+- pageName: "OurPlansPage"
+  locatorName: "SeeOtherIncomeProducts"
+  locatorType: "XPATH"
+  locatorValue: "(//*[@id='overview-plan-footer']//input)[3]"
+
+- pageName: "OurPlansPage"
+  locatorName: "PopupHeader"
+  locatorType: "ID"
+  locatorValue: "overview-modal-children-title"
+
+- pageName: "OurPlansPage"
+  locatorName: "PopupDescription"
+  locatorType: "ID"
+  locatorValue: "overview-modal-children-description"
+
+- pageName: "OurPlansPage"
+  locatorName: "StayHereButton"
+  locatorType: "XPATH"
+  locatorValue: "(//*[@id='overview-modal-children-footer']//input)[1]"
+
+- pageName: "OurPlansPage"
+  locatorName: "SeeOtherIncomeProductsButtonOnPopup"
+  locatorType: "XPATH"
+  locatorValue: "(//*[@id='overview-modal-children-footer']//input)[2]"
+
+- pageName: "OurPlansPage"
+  locatorName: "ClosePopupIcon"
+  locatorType: "ID"
+  locatorValue: "overviewPlan-modal-close-icon"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProductBoxByNameAndTitle"
+  locatorType: "XPATH"
+  locatorValue: "//div[@id='overviewPlans-plan-container' and .//div[@id='overviewPlans-plan-title' and starts-with(text(),'${name}')] and .//div[@id='overviewPlans-plan-subtitle' and .='${subTitle}']]"
+
+- pageName: "OurPlansPage"
+  locatorName: "ProductBoxFooter"
+  locatorType: "ID"
+  locatorValue: "overviewPlans-plan-footer"

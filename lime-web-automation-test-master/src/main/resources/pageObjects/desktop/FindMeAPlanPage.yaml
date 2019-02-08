@@ -1,0 +1,65 @@
+locators:
+- pageName: "FindMeAPlanPage"
+  locatorName: "PageHeading"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Find me a plan']"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "PlanDropDown"
+  locatorType: "ID"
+  locatorValue: "smartfinder-plans"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "Option1Dropdown"
+  locatorType: "XPATH"
+  locatorValue: "(//div[@class='css-1phseng'])[2]"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "Option3Dropdown"
+  locatorType: "XPATH"
+  locatorValue: "(//div[@class='css-1phseng'])[4]"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "ShortlistButton"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Shortlist Now']"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "Option2Dropdown"
+  locatorType: "XPATH"
+  locatorValue: "(//div[@class='css-1phseng'])[3]"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "NoPlansMessage"
+  locatorType: "XPATH"
+  locatorValue: "(//*[@class='_1UAy4e7gel-CQNWriMG9j4'])[2]"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "PlanResults"
+  locatorType: "ID"
+  locatorValue: "undefined-plan-container"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "CloseNoPlansPopup"
+  locatorType: "XPATH"
+  locatorValue: "(//*[@class='_2ADxFa_6aYaDDoxTyaVp6J undefined'])[3]"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "DropDown1OptionByText"
+  locatorType: "XPATH"
+  locatorValue: "//div[./div[text()='I am looking for a']]/div[2]//div[text()='${name}']"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "DropDown2OptionByText"
+  locatorType: "XPATH"
+  locatorValue: "(//div[@class='css-1phseng'])[2]/../..//div[text()=\"${name}\"]"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "DropDown3OptionByText"
+  locatorType: "XPATH"
+  locatorValue: "(//div[@class='css-1phseng'])[3]/../../div[2]//div[text()='${name}']"
+
+- pageName: "FindMeAPlanPage"
+  locatorName: "DropDown4OptionByText"
+  locatorType: "XPATH"
+  locatorValue: "(//div[@class='css-1phseng'])[4]/../../div[2]//div[text()='${name}']"
